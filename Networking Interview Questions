@@ -1,0 +1,223 @@
+1.  What is a Network?
+    A network is referred to as a set of a number of devices that are connected to each other with the help of a physical media link. In other words,
+    a network is an interconnected group of a number of similar things such as computers, people, devices, etc.  
+    For example, a computer network is an example of a well-established network that consists a number of computers connected with each other.
+    They share different types of information and data. 
+    
+    
+2. What is a Node?
+   In a network, various devices are connected to each other such as computers, servers and printers.  
+   Wherever a network is established, that specific point is called as a Node.   
+   A device connected to a network is also called as a Node.   
+   A node is the hub of sending, receiving and forwarding a piece of electrical information.  
+   
+   
+3. List different types of networks.
+    There are in total, 5 different types of networks:  
+
+    PAN (Personal Area Network):  
+    Such a network allows the connection amongst the devices present over a range of person. For example, phones connected through Bluetooth.  
+
+    LAN (Local Area Network):  
+    LAN is a privately-owned network that works within a building or between a nearby building. For example, at home, office or factory.  
+
+    MAN (Metropolitan Area Network):  
+    As the name suggests, MAN is a type of network that is present in a whole city. For example, a cable connection in a city.  
+
+    WAN (Wide Area Network):  
+    It is spread over a large geographical area. For example, Internet service that is spread all across a country.  
+
+    GAN (Global Area Network):  
+    One of the best-known GAN is the Internet itself that connects the whole world/globe with the help of satellites. The Internet is also known as the Network of WANs.  
+    
+    
+4. What do you understand by Network topology?
+   A network topology is the physical representation of a computer network. It shows how computers or other devices are connected to each other with the help of cables. There are mainly 6 types of network topologies and This is the most frequently Network Interview question asked :  
+
+    Bus:   
+
+    In a bus topology, all the nodes are connected to only one common cable called as the central cable or the bus.  
+    This type of topology is safe for only a small number of devices.   
+    If the bus stops working or gets damaged, the whole network fails to work. 
+    
+    Star:  
+
+    In this topology, all the nodes are connected to a single device called the central device.   
+    Star topology needs a lot of cables. If one cable fails, only a specific device stops working.  
+    It is a strong topology.  
+    It is mostly used in office and home networks.  
+    It is very easy to install, manage and troubleshoot.  
+    
+    Ring:  
+
+    In this topology, a node is exactly connected to two or more nodes. Thus, it forms a one-way transmission system.  
+    There is no central server here.  
+    It is rarely used at it is expensive.  
+    Mesh:  
+
+    Mesh is a type of topology in which all nodes are connected to other nodes individually.   
+    It is a strong topology as failure of any one cable would only destroy a single node.  
+    
+    Tree:  
+
+    It is a combination of Star and Bus topology.  
+    It is also known as the ‘extended star’ topology.  
+    Ethernet protocol is used in this topology.  
+    There is no effect on the other nodes if one of them stops working.
+    
+    Hybrid:  
+
+    Hybrid topology is a combination of various topologies to build a particular topology.  
+    For example,   
+    Star topology+ Star topology = Star topology  
+
+    However, Star topology+ Bus/Tree Topology = Hybrid Topology  
+
+    Its the basic Networking Interview Questions. A network is referred to as a set of a number of devices that are connected to each other with the help of a physical media link. In other words, a network is an interconnected group of a number of similar things such as computers, people, devices, etc.  
+
+    For example, a computer network is an example of a well-established network that consists a number of computers connected with each other. They share different types of information and data.
+    
+    
+    
+5. What is a VPN?
+    VPN which stands for a Virtual Private Network.  
+    It refers to a private WAN (Wide Area Network) that is created on the Internet.  
+    By using a VPN, a person can connect to an organization’s network no matter how far it is present.  
+    
+    
+6. Explain the OSI Reference Model.
+    OSI is known as the Open System Interconnection.  
+    It is a reference model.  
+    It tells how applications can talk to each other over a networking system.  
+    It shows the relationship between networks.  
+    
+ 
+7. What are the layers in the OSI Reference models? Name them too. 
+   There are 7 layers in the OSI Reference Models. These layers are given below:  
+
+    Physical Layer (Layer 1):  
+
+    It changes the bits of data into electrical impulses or radio signals. Example: Ethernet.  
+
+    Data Link Layer (Layer 2):  
+
+    In this layer, data packets are encoded and decoded into data bits.  
+    It provides a node-to-node transfer.  
+    Layer 2 checks for errors in the Layer 1. 
+    
+    Network Layer (Layer 3):  
+
+    This layer transfers variable-length data sequence from one node to another in the same network.  
+    This variable-length data sequence is called Datagrams. 
+    
+    Transport Layer (Layer 4):  
+
+    This layer transfers data between nodes.  
+    It shows the successful transmission of data.  
+    It notes the data transmission.  
+    In case the transmission fails, it sends the segment again.  
+    
+    Session Layer (Layer 5):  
+
+    This layer looks after the connections between computers and controls them.  
+    It has the responsibility to create, coordinate, exchange and end connections between remote and local applications. 
+    
+    Presentation Layer (Layer 6):  
+
+    It is also called ‘Syntax’ layer.  
+    It transforms data in which the Layer 7 accepts.  
+    
+    Application Layer (Layer 7):  
+
+    It is the last layer of the OSI model.  
+    It is the closest layer to the end-user.  
+    It interacts with the software application.  
+    This layer provides services for file transfer, email, etc.  
+    It explains the communication process in a network.  
+    
+    
+8. What is a Router? 
+    A router is a networking device that creates a network between two or more network segments.   
+    It is used to transfer information from source to the destination.  
+    Data packets carrying information pass from one router to another.  
+    Routers read the network address in these packets.  
+    They identify the destination network. 
+    
+    
+9. Briefly describe the TCP/IP model. 
+    TCP/IP is known as the Transmission Control Protocol and Internet Protocol.  
+    It is the most commonly and widely used protocol.  
+    It shows how data should be packaged and transmitted.  
+    
+    
+10. Define Firewall. 
+    Firewall is a network security device that creates a filtering wall between the Internet and a Network.   
+    It prevents any outsider from getting access to the computer network.   
+    It is an already installed application in the Windows Operating System.  
+    ‘Windows Firewall’ is an example of Firewall.  
+    
+    
+11. What is DNS? 
+    The full form of DNS is Domain Name System.  
+    It is a naming system used for all types of resources present over the internet.  
+    DNS is an Internet which takes and delivers the domain names to their related IP addresses.  
+    A computer can know the location of a web page through DNS.  
+    
+    
+12. What do you understand by HTTP? Which port does it use? 
+    HTTP stands for Hyper Text Transfer Protocol.  
+    It allows communication on the Internet.  
+    HTTP is a TCP/IP protocol.  
+    This protocol tells how messages are to be transmitted.  
+    
+    
+13. What do you understand by a client/server network? 
+   A client/server network refers to a type of network where one computer acts as a server to another computer.  
+   However, the server is the most powerful of all the clients. It serves all the clients with information.
+   
+   
+14. Define and explain in short, the components of a protocol. 
+    A protocol is a set of rules or procedures that allow the electrical devices to communicate with each other.   
+    In other words, protocols are a set of rules that transmit data between computers to help them exchange information.  
+    The major parts of a protocol are:  
+
+    Syntax  :
+    Syntax is the structure and the format of the data.  
+
+    Semantics  :  
+    Semantics tell about the meaning of each part of bits.  
+
+    Timing  :
+    Timing tells about when the data should be sent and received.  
+    
+    
+    
+15. Explain DHCP in brief. 
+    DHCP stands for Dynamic Host Configuration Protocol.  
+    It automatically gives IP addresses to the network devices on its own.  
+    It cuts off any need to add IP addresses through a person. This reduces chances of errors.  
+    Bottom line, DHCP has a ‘collection of IP addresses’ through which it provides IP addresses to the network devices.  
+    The whole process is centralized. Therefore, TCP/IP configuration is also done from a central location.  
+    
+    
+16. What do you mean by Ethernet? 
+    Ethernet is a cable/wired system that connects a number of computers together in a small business office.  
+    It is a technology that transmits data among computers present in a network.  
+    For example, if we connect a computer and a phone to a printer, it is called an Ethernet.  
+
+17. What is bandwidth? 
+    The maximum amount of data transmitted over an Internet connection in a given amount of time is called Bandwidth.  
+    It is often confused with Internet. However, Bandwidth is the actual volume of information that could be sent over a connection in a span of time.  
+    It is measured in Megabits per second (Mbps).  
+
+18. What do you mean by MAC address? 
+    MAC stands for Media Access Control.  
+    It is the address of the device at the Media Access Control Layer of the Network Architecture.  
+    It is a unique address.  
+    Every device has its own unique MAC address.  
+
+19. Explain in brief TCP? 
+    TCP stands for Transmission Control Protocol.  
+    It is a connection-oriented protocol.  
+    It creates and maintains a connection between two devices while they share the information.  
+    It also sends and receives information packets of information to and from the network layer.  
